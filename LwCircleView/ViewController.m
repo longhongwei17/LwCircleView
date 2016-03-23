@@ -7,21 +7,40 @@
 //
 
 #import "ViewController.h"
+#import "DDCircleInterestView.h"
 
-@interface ViewController ()
+@interface ViewController ()<DDCircleInterestViewDelegate>
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray *tmpData = [NSMutableArray array];
+    for (NSInteger index = 0; index < 9; index ++) {
+        [tmpData addObject:@(index)];
+    }
+    
+    
+    DDCircleInterestView *circleView = [[DDCircleInterestView alloc] initWithData:tmpData];
+    circleView.delegate = self;
+    [self.view addSubview:circleView];
 }
 
-- (void)didReceiveMemoryWarning {
+#pragma mark - DDCircleInterestViewDelegate
+
+- (void)circleView:(DDCircleInterestView *)circleView DidSelectItem:(NSInteger)item
+{
+    NSLog(@"====%@",@(item));
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
