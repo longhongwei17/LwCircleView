@@ -26,11 +26,6 @@
     DDCircleInterestView *circleView = [[DDCircleInterestView alloc] initWithData:tmpData];
     circleView.delegate = self;
     [self.view addSubview:circleView];
-    
-    // test kVC
-    
-    NSArray *list = @[];
-    
 }
 
 #pragma mark - DDCircleInterestViewDelegate
