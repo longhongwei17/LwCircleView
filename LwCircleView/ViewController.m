@@ -27,7 +27,9 @@
     circleView.delegate = self;
     [self.view addSubview:circleView];
     
-    // test Kvc
+    // test kVC
+    
+    NSArray *list = @[];
     
 }
 
