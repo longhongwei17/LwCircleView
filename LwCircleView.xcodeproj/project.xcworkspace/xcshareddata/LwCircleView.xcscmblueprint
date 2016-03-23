@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30C8BB9D6D65018A2B2ABE5D5AF610FCEC391A0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30C8BB9D6D65018A2B2ABE5D5AF610FCEC391A0F" : 0,
+    "D167CDF2F5F6205006B242EE60E3B0FFC531E651" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "312F802D-61A7-4F3E-BF11-1CB96DE1681B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30C8BB9D6D65018A2B2ABE5D5AF610FCEC391A0F" : "LwCircleView\/",
+    "D167CDF2F5F6205006B242EE60E3B0FFC531E651" : "LwCircleView\/LwCircleView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LwCircleView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LwCircleView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/longhongwei17\/LwCircleView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30C8BB9D6D65018A2B2ABE5D5AF610FCEC391A0F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/longhongwei17\/LwCircleView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D167CDF2F5F6205006B242EE60E3B0FFC531E651"
+    }
+  ]
+}

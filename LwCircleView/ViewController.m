@@ -23,11 +23,12 @@
     for (NSInteger index = 0; index < 9; index ++) {
         [tmpData addObject:@(index)];
     }
-    
-    
     DDCircleInterestView *circleView = [[DDCircleInterestView alloc] initWithData:tmpData];
     circleView.delegate = self;
     [self.view addSubview:circleView];
+    
+    // test Kvc
+    
 }
 
 #pragma mark - DDCircleInterestViewDelegate
